@@ -47,3 +47,20 @@ It can make code more concise and readable, especially for objects with multiple
 The syntax for object destructuring is:
 const { property1, property2, ...} = sourceObject;
 You can provide default values, rename variables, and perform nested object destructuring.
+
+
+
+
+
+## map()
+
+It iterates over the original array element by element.
+It does not modify the original array.
+The callback function's result is used to create a new array.
+It returns a new array of the same length.
+
+## Transforming Array Elements
+The map() method shines when we need to transform every element of an array without modifying the original array.
+
+
+
