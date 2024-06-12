@@ -23,3 +23,27 @@ Object methods are functions defined within objects, allowing data and related f
 The this keyword refers to the object calling the method, enabling access to its properties.
 Object methods offer logical organization, data encapsulation, and improved code readability.
 Methods can access object properties using the this keyword and interact with them using dot notation.
+
+
+
+## Object Iteration with for...in Loop
+The for...in loop is used for iterating over the properties of an object.
+It allows you to access each property's name (key) and its corresponding value during iteration.
+
+## Handling Properties with hasOwnProperty()
+hasOwnProperty() is a method to check if a specific property exists directly on an object, distinguishing it from inherited properties.
+It returns a Boolean value indicating whether the object has a property with the specified name.
+It is often combined with the for...in loop to ensure that only the object's properties are accessed.
+
+## The spread operator (...)
+Is a tool for creating new objects by merging and copying properties from existing objects.
+It can clone objects, add or modify properties, and create new objects.
+The basic syntax for object creation using the spread operator is:
+const newObject = { ...sourceObject };
+
+## Object destructuring 
+Allows you to extract specific properties from an object and assign them to variables.
+It can make code more concise and readable, especially for objects with multiple properties.
+The syntax for object destructuring is:
+const { property1, property2, ...} = sourceObject;
+You can provide default values, rename variables, and perform nested object destructuring.
